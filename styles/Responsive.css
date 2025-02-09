@@ -1,0 +1,455 @@
+/* Media Queries for Different Screen Sizes */
+
+/* (1366x768) WXGA Display */
+@media screen and (min-width: 1366px) and (max-width: 1700px) {
+    .br-app:before {
+        left: 1%; /* Positioning for the before pseudo-element */
+    }   
+    .br-app:after {
+        right: 1%; /* Positioning for the after pseudo-element */
+    }
+
+    .hero .social-links {
+        right: 25px; /* Positioning for social links */
+    }
+}
+
+/* Media query for screens between 1300px and 1700px */
+@media screen and (min-width: 1300px) and (max-width: 1700px) {
+    .hero .social-links {
+        right: 25px; /* Positioning for social links */
+    }
+}
+
+/* Media query for screens between 1200px and 1440px */
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+    .br-app:before {
+        left: 1%; /* Positioning for the before pseudo-element */
+    }   
+    .br-app:after {
+        right: 1%; /* Positioning for the after pseudo-element */
+    }
+    .hero .copy {
+        bottom: -50px; /* Adjusts the position of the copy text */
+    }
+}
+
+/* Media query for screens between 1200px and 1500px */
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+    .hero-slider-wrapper:before {
+        display: none; /* Hides the before pseudo-element */
+    }
+    .hero-slider-wrapper:after {
+        display: none; /* Hides the after pseudo-element */
+    }
+    .hero .copy {
+        bottom: -80px; /* Adjusts the position of the copy text */
+    }
+}
+
+/* Normal desktop: 992px to 1197px */
+@media (min-width: 992px) and (max-width: 1197px) {
+    .about-content {
+        padding-left: 0px; /* Removes left padding */
+        text-align: center; /* Centers text */
+    }
+    .about-content h2:before {
+        left: -40px; /* Adjusts position of the before pseudo-element */
+    }
+    .about-content h2 {
+        margin-top: 0; /* Removes top margin */
+    }
+    .gallery-section {
+        padding-bottom: 70px; /* Bottom padding for gallery section */
+        padding-top: 70px; /* Top padding for gallery section */
+    }
+    .hero-style-1 {
+        height: 100vh; /* Full viewport height */
+        min-height: 800px; /* Minimum height */
+    }
+    .hero .copy {
+        bottom: -40px; /* Adjusts the position of the copy text */
+    }
+    .hero-style-1 .slide {
+        height: 100vh; /* Full viewport height for slide */
+        min-height: 800px; /* Minimum height for slide */
+    }
+    .br-app:before {
+        left: 1%; /* Positioning for the before pseudo-element */
+    }   
+    .br-app:after {
+        right: 1%; /* Positioning for the after pseudo-element */
+    }
+    .about-area:before {
+        display: none; /* Hides the before pseudo-element */
+    }
+    .hero-slider-wrapper:before {
+        display: none; /* Hides the before pseudo-element */
+    }
+    .hero-slider-wrapper:after {
+        display: none; /* Hides the after pseudo-element */
+    }
+    .service-area {
+        padding-bottom: 120px; /* Bottom padding for service area */
+    }
+}
+
+/* Normal desktop: 768px to 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-style-1 .navbar-header button {
+        top: 50%; /* Centers the button vertically */
+        transform: translateY(-50%); /* Adjusts position */
+    }
+    .header-style-1 .navigation-holder.active {
+        right: 0!important; /* Positions the navigation holder */
+    }
+    .site-header .navbar-nav > li {
+        position: relative; /* Positioning context for list items */
+    }
+    .hero .slide-caption {
+        padding-top: 0; /* Removes top padding */
+    }
+    .about-content {
+        padding: 40px 0px 0; /* Padding for about content */
+        padding-left: 0px; /* Removes left padding */
+        text-align: center; /* Centers text */
+    }
+    .about-content h2:before {
+        left: -40px; /* Adjusts position of the before pseudo-element */
+    }
+    .service-area {
+        padding-bottom: 70px; /* Bottom padding for service area */
+        padding-top: 60px; /* Top padding for service area */
+    }
+    .gallery-section {
+        padding-bottom: 70px; /* Bottom padding for gallery section */
+        padding-top: 70px; /* Top padding for gallery section */
+    }
+    .contact-area {
+        margin-top: 30px; /* Top margin for contact area */
+    }
+    .contact-area form div, .contact-area-s2 form div {
+        padding-bottom: 0; /* Removes bottom padding for form divs */
+    }
+    .contact-area form .form-submit {
+        margin-top: 20px; /* Top margin for form submit button */
+    }
+    .contact-page-item h3 {
+        margin-bottom: 5px; /* Bottom margin for contact page item */
+        margin-top: 0; /* Removes top margin */
+    }
+    .contact-page-item .adress {
+        margin-bottom: 7px; /* Bottom margin for address */
+    }
+    .contact-page-item .phone {
+        margin-bottom: 7px; /* Bottom margin for phone */
+    }
+    .contact-page-area {
+        padding-top: 70px; /* Top padding for contact page area */
+        padding-bottom: 70px; /* Bottom padding for contact page area */
+    }
+    .hero-style-1 {
+        height: 600px; /* Height for hero section */
+        min-height: 600px; /* Minimum height for hero section */
+    }
+    .hero-style-1 .slide {
+        height: 600px; /* Height for hero slide */
+        min-height: 600px; /* Minimum height for hero slide */
+    }
+    .br-app:before {
+        left: 1%; /* Positioning for the before pseudo-element */
+    }   
+    .br-app:after {
+        right: 1%; /* Positioning for the after pseudo-element */
+    }
+    .about-area:before {
+        display: none; /* Hides the before pseudo-element */
+    }
+    .header-style-1 {
+        border-bottom: 1px solid rgba(102,102,102,.3); /* Border for header */
+    }
+    .hero .copy {
+        display: none; /* Hides the copy text */
+    }
+    .blog-section {
+        padding-bottom: 90px; /* Bottom padding for blog section */
+        padding-top: 90px; /* Top padding for blog section */
+    }
+    .hero-slider-wrapper:after {
+        display: none; /* Hides the after pseudo-element */
+    }
+    .hero-slider-wrapper::before {
+        display: none; /* Hides the before pseudo-element */
+    }
+    .payra-masonary .grid.active, .payra-masonary .grid.open {
+        flex: 0 0 50%; /* Flex properties for active grid items */
+        max-width: 50%; /* Maximum width for active grid items */
+    }
+}
+
+/* Small mobile: 576px to 767px */
+@media (min-width: 576px) and (max-width: 767px) {
+    .hero .slide-caption {
+        padding-top: 0; /* Removes top padding */
+    }
+    .hero-style-1 .slide-title h2 {
+        font-size: 50px; /* Font size for slide title */
+        font-size: 3.33333rem; /* Rem unit for responsive design */
+    }
+    .about-content {
+        padding: 40px 0px 0; /* Padding for about content */
+        padding-left: 0px; /* Removes left padding */
+        text-align: center; /* Centers text */
+    }
+    .about-content h2:before {
+        left: -40px; /* Adjusts position of the before pseudo-element */
+    }
+    /* Uncommented pricing section grid max-width */
+    /* .pricing-section .pricing-grids { */
+    /*     max-width: 450px; */
+    /*     margin: auto; */
+    /* } */
+    .header-style-1 .navbar-header button {
+        top: 11px; /* Adjusts button position */
+    }
+    .service-area {
+        padding-bottom: 70px; /* Bottom padding for service area */
+        padding-top: 60px; /* Top padding for service area */
+    }
+    .service-section .services-wrapper {
+        max-width: 400px; /* Maximum width for services wrapper */
+        margin: auto; /* Centers the services wrapper */
+        margin-bottom: 30px; /* Bottom margin for services wrapper */
+    }
+    .gallery-section {
+        padding-bottom: 73px; /* Bottom padding for gallery section */
+        padding-top: 80px; /* Top padding for gallery section */
+    }
+    .site-header #navbar > ul > li {
+        padding: 0 10px; /* Padding for navbar list items */
+    }
+    .site-header #navbar > ul > li:first-child {
+        padding-top: 10px; /* Top padding for the first navbar item */
+    }
+    .blog-item {
+        max-width: 500px; /* Maximum width for blog items */
+        margin: auto; /* Centers blog items */
+        margin-bottom: 30px; /* Bottom margin for blog items */
+    }
+    .contact-page-area {
+        padding-top: 70px; /* Top padding for contact page area */
+        padding-bottom: 70px; /* Bottom padding for contact page area */
+    }
+    .contact-page-area .contact-map {
+        margin-top: 15px; /* Top margin for contact map */
+    }
+    .hero-style-1 {
+        height: 600px; /* Height for hero section */
+        min-height: 600px; /* Minimum height for hero section */
+    }
+    .hero-style-1 .slide {
+        height: 600px; /* Height for hero slide */
+        min-height: 600px; /* Minimum height for hero slide */
+    }
+    .br-app:before {
+        left: 1%; /* Positioning for the before pseudo-element */
+    }   
+    .br-app:after {
+        right: 1%; /* Positioning for the after pseudo-element */
+    }
+    .about-area:before {
+        display: none; /* Hides the before pseudo-element */
+    }
+    .header-style-1 {
+        border-bottom: 1px solid rgba(102,102,102,.3); /* Border for header */
+    }
+    .hero .copy {
+        display: none; /* Hides the copy text */
+    }
+    .blog-section {
+        padding-bottom: 70px; /* Bottom padding for blog section */
+        padding-top: 90px; /* Top padding for blog section */
+    }
+    .hero-slider-wrapper:after {
+        display: none; /* Hides the after pseudo-element */
+    }
+    .hero-slider-wrapper::before {
+        display: none; /* Hides the before pseudo-element */
+    }
+    .slider-image {
+        display: none; /* Hides the slider image */
+    }
+    .hero-slider {
+        background: #202020; /* Background color for hero slider */
+    }
+    .header-style-1 .navbar-header button {
+        top: 50%; /* Centers the button vertically */
+        transform: translateY(-50%); /* Adjusts position */
+    }
+    .header-style-1 .navigation-holder.active {
+        right: 0!important; /* Positions the navigation holder */
+    }
+    .site-header .navbar-nav > li {
+        position: relative; /* Positioning context for list items */
+    }
+    .payra-masonary .grid.active, .payra-masonary .grid.open {
+        flex: 0 0 50%; /* Flex properties for active grid items */
+        max-width: 50%; /* Maximum width for active grid items */
+    }
+}
+
+/* Extra small mobile: max-width 575px */
+@media (max-width: 575px) {
+    .hero .slide-caption {
+        padding-top: 0; /* Removes top padding */
+    }
+    .header-style-1 .navbar-header button {
+        top: 11px; /* Adjusts button position */
+    }
+    .about-content {
+        padding: 40px 0px 0; /* Padding for about content */
+        padding-left: 0px; /* Removes left padding */
+        text-align: center; /* Centers text */
+    }
+    .about-content h2:before {
+        left: 37%; /* Adjusts position of the before pseudo-element */
+    }
+    .about-content h2:before {
+        left: -40px; /* Adjusts position of the before pseudo-element */
+    }
+    .my-testimonial .inner-content {
+        padding: 40px 8px 30px 0px; /* Padding for testimonial content */
+    }
+    /* Uncommented pricing section body padding */
+    /* .pricing-section .pricing-body { */
+    /*     padding: 4px 20px 30px; */
+    /* } */
+    .about-area {
+        overflow: hidden; /* Hides overflow for about area */
+        padding-top: 110px; /* Top padding for about area */
+        padding-bottom: 70px; /* Bottom padding for about area */
+    }
+    .about-img:before {
+        left: -8px; /* Adjusts position of the before pseudo-element */
+        top: 27px; /* Adjusts top position */
+        width: 300px; /* Width for the before pseudo-element */
+        height: 300px; /* Height for the before pseudo-element */
+    }
+    .about-img:after {
+        left: -2px; /* Adjusts position of the after pseudo-element */
+        top: 21px; /* Adjusts top position */
+        width: 300px; /* Width for the after pseudo-element */
+        height: 300px; /* Height for the after pseudo-element */
+    }
+    .site-header #navbar > ul > li {
+        padding: 0 10px; /* Padding for navbar list items */
+    }
+    .site-header #navbar > ul > li:first-child {
+        padding-top: 10px; /* Top padding for the first navbar item */
+    }
+    .service-section .services-wrapper {
+        padding: 40px 10px 30px; /* Padding for services wrapper */
+    }
+    .service-area {
+        padding-bottom: 40px; /* Bottom padding for service area */
+        padding-top: 60px; /* Top padding for service area */
+    }
+    .site-header .navigation .navbar-brand {
+        padding: 3px 15px 0; /* Padding for navbar brand */
+    }
+    .header-style-1 .navbar-header button {
+        top: 8px; /* Adjusts button position */
+    }
+    .section-title h2 {
+        font-size: 37px; /* Font size for section title */
+        margin-bottom: 20px; /* Bottom margin for section title */
+        margin-top: 0; /* Removes top margin */
+    }
+    .gallery-section {
+        padding-bottom: 50px; /* Bottom padding for gallery section */
+        padding-top: 65px; /* Top padding for gallery section */
+    }
+
+    .blog-content ul li {
+        display: inline-block; /* Displays list items inline */
+        padding: 0 5px; /* Padding for list items */
+    }
+    .contact-page-area {
+        padding-top: 70px; /* Top padding for contact page area */
+        padding-bottom: 70px; /* Bottom padding for contact page area */
+    }
+    .contact-page-area .contact-map {
+        margin-top: 15px; /* Top margin for contact map */
+    }
+    .hero-style-1 {
+        height: 450px; /* Height for hero section */
+        min-height: 450px; /* Minimum height for hero section */
+        background: #202020; /* Background color for hero section */
+    }
+    .slider-image {
+        display: none; /* Hides the slider image */
+    }
+    .hero-slider {
+        background: #202020; /* Background color for hero slider */
+    }
+    .hero-style-1 .slide {
+        height: 450px; /* Height for hero slide */
+        min-height: 450px; /* Minimum height for hero slide */
+    }
+    .br-app:before {
+        left: 2%; /* Positioning for the before pseudo-element */
+    }   
+    .br-app:after {
+        right: 2%; /* Positioning for the after pseudo-element */
+    }
+    .about-area:before {
+        display: none; /* Hides the before pseudo-element */
+    }
+    .header-style-1 {
+        border-bottom: 1px solid rgba(102,102,102,.3); /* Border for header */
+        background: #333; /* Background color for header */
+        padding: 5px 0px; /* Padding for header */
+    }
+    .hero .copy {
+        display: none; /* Hides the copy text */
+    }
+    .blog-section {
+        padding-bottom: 40px; /* Bottom padding for blog section */
+        padding-top: 60px; /* Top padding for blog section */
+    }
+    .hero-style-1 .slide-title h2 {
+        font-size: 35px; /* Font size for slide title */
+    }
+    .testimonial-img {
+        width: 20%; /* Width for testimonial images */
+    }
+    .testimonial-area {
+        padding: 60px 0 100px; /* Padding for testimonial area */
+        border-top: 1px solid; /* Top border for testimonial area */
+    }
+    .hero-slider-wrapper:after {
+        display: none; /* Hides the after pseudo-element */
+    }
+    .hero-slider-wrapper::before {
+        display: none; /* Hides the before pseudo-element */
+    }
+    .header-style-1 .navbar-header button {
+        top: 50%; /* Centers the button vertically */
+        transform: translateY(-50%); /* Adjusts position */
+    }
+    .header-style-1 .navigation-holder.active {
+        right: 0!important; /* Positions the navigation holder */
+    }
+    .site-header .navbar-nav > li {
+        position: relative; /* Positioning context for list items */
+    }
+    .payra-masonary .grid.active, .payra-masonary .grid.open {
+        flex: 0 0 100%; /* Flex properties for active grid items */
+        max-width: 100%; /* Maximum width for active grid items */
+    }
+}
+
+/* Large Mobile: 480px */
+@media only screen and (min-width: 325px) and (max-width: 590px) {
+    /* Additional styles for large mobile devices can be added here */
+}
